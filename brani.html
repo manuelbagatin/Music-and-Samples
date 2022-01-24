@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<head>
+	<!-- set caratteri -->
+	<meta charset="utf-8">
+	<!-- portabilità su devices differenti -->
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<!-- Metadati: -->
+<meta name="description" content="Music & Samples è un catalogo di brani,album, artisti e generi musicali, che presta particolare attenzione ai campioni utilizzati">
+<meta name="keywords" content="music, tracks albums, artists, samples">
+<meta name="author" content="Manuel Bagatin">
+	<!-- Dublin Core -->
+	<meta name="DC:title" content="Music & Samples">
+	<meta name="DC.creator.PersonalName" content="Manuel, Bagatin">
+	<meta name="DC,creator.PersonalName.Adress" content="manuel.bagatin@studio.unibo.it">
+	<meta name="DC.Subject" content="Music, Tracks Samples, Albums">
+	<meta name="DC.Description" content="Music & Samples è un catalogo di brani,album, artisti e generi musicali, che presta particolare attenzione ai campioni utilizzati">
+	<meta name="DC.Publisher" content="Altervista">
+	<meta name="DC.Date" content="2021-01-20">
+	<meta name="DC.Type" content="Catalogo con testo, immagini e player interni e esterni">
+	<meta name="DC.Format" content="text/html">
+	<meta name="DC.Identifier" content="wwww.musicesamples.altervista.org">
+	<meta name="DC.Language" content="it">
+	
+	<title>Brani | Music & Samples</title>
+
+	<link rel="shortcut icon" href="assets/images/logobrows.png">
+	
+	<!-- Bootstrap -->
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+	<!-- Icon font -->
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<!-- Fonts -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"	rel="stylesheet">
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="assets/css/styles.css">
+
+
+</head>
+<body class="pagina">
+
+<header id="header">
+
+	<div id="head" >
+		<h1 class="text-center">
+			<img class="img-circle" src="assets/images/logosito.png" alt="Logo del sito">
+			<span class="title">Music & Samples</span>
+			<span class="tagline">Esplora un vasto catalogo di brani</span>
+		</h1>
+            
+				<table class="barradiricerca">
+          <tr>
+            <td>
+              <input type="text" placeholder="Cerca brani, artisti, album o generi..">
+            </td>
+            <td>
+              <a href="#"><i class="material-icons" title="Cerca">search</i></a>
+            </td>
+          </tr>
+        </table>
+			
+		</div>
+
+  <nav class="navbar navbar-default navbar-sticky">
+		<div class="container-fluid">
+				<div class="navbar-collapse collapse">
+			    <ul class="nav navbar-nav">
+				  	<li> <a href="index.html">Home</a></li>
+					  <li class="active"><a href="">Brani</a></li>
+					  <li class="dropdown">
+						  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categorie <b class="caret"></b></a>
+						  <ul class="dropdown-menu">
+							  <li><a href="">Artisti</a></li>
+							  <li><a href="">Album</a></li>
+							  <li><a href="">Generi</a></li>
+						</ul>
+			     </li>
+					 <li><a href="wpp.html">Web Project Plan</a></li>
+				</ul>
+			</div>			
+		</div>	
+	</nav>
+</header>
+
+<section id="main">
+	
+	<div>
+	    <ul class="briciole" id="bricioleelenco">
+          <li><a href="index.html">Home</a></li>
+          <li>Brani</li>
+      </ul>	 
+
+      <h1 class="entry-title">Elenco Brani </h1>
+
+  </div>
+          
+				<center>
+					<table>
+						<tr>
+							<td>
+								<input class="searchbarbrani" type="text" id="myInput" onkeyup="myFunction()" placeholder="Cerca per nome brano.. " title="Type in a name">
+							</td>
+							<td>
+              <a href=""><i class="material-icons" title="Cerca">search</i></a>
+            </td>
+					</table>
+						</tr>
+						
+			
+					
+
+<table id="table">
+  <tr>
+    <th style="width:30%;">Nome</th>
+    <th style="width:20%;">Artista</th>
+    <th style="width:30%;">Album</th>
+    <th style="width:10%;">Anno</th>
+    <th style="width:10%;">Genere</th>
+    <th style="width:10%;">Visualizzazioni</th>
+  </tr>
+  <tr>
+    <td> <a href="item.html">Wolves</a></td>
+    <td><a href="">Kanye West</a></td>
+    <td><a href="">The Life Of Pablo</a></td>
+    <td>2016</td>
+    <td><a href="">Art Pop</a></td>
+    <td>7467946</td>
+  </tr>
+  <tr>
+    <td><a href="">Canzone Del Padre</a></td>
+    <td><a href="">Fabrizio De Andr&eacute</a></td>
+    <td><a href="">Storia di un impiegato</a></td>
+    <td>1973</td> 
+    <td><a href="">Cantautorato</a></td>
+    <td>1209873</td>  
+  </tr> 
+  <tr>
+    <td><a href="">Dune Mosse</a></td>
+    <td><a href="">Zucchero</a>,<a href="">Miles davies</a></td>
+    <td><a href="">Blue's</a></td>
+    <td>1987</td> 
+    <td><a href="">Blues</a></td>
+    <td>748738</td>  
+  </tr>  
+
+  <tr>
+    <td> <a href="">La Prima Volta</a></td>
+    <td><a href="">Salmo</a></td>
+     <td><a href="">The island Chainsaw Massacre</a></td>
+      <td>2010</td>
+       <td><a href="">Hip Hop</a></td>
+        <td>653637</td>
+  </tr>
+ 
+ 
+ <tr>
+    <td><a href="">Divenire</a></td>
+    <td><a href="">Ludovico Einaudi</a></td>
+    <td><a href="">Divenire</a></td>
+    <td>2006</td> 
+    <td><a href="">New age</a></td>
+    <td>584937</td>  
+  </tr>
+ 
+ <tr>
+    <td><a href="">Marooned</a></td>
+    <td><a href="">Pink Floyd</a></td>
+    <td><a href="">The Division Bell</a></td>
+    <td>1994</td> 
+    <td><a href="">Rock</a></td>
+    <td>483938</td>  
+  </tr>
+ 
+ <tr>
+    <td><a href="">Holy Terrain</a></td>
+    <td><a href="">FKA Twings</a>,<a href="">Future</a></td>
+    <td><a href="">Magdalene</a></td>
+    <td>2019</td> 
+    <td><a href="">Elettronica</a></td>
+    <td>394874</td>  
+  </tr>
+ 
+ <tr>
+    <td><a href="">Milk and Honey</a></td>
+    <td><a href="">Nick Drake</a></td>
+    <td><a href="">Family Tree</a></td>
+    <td>2007</td> 
+    <td><a href="">Folk</a></td>
+    <td>284784</td>  
+  </tr>
+ 
+ 
+</table>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+
+			<div class="pagination">
+				<a class="disabled"href="">&laquo;</a>
+				<a class="active" href="">1</a>
+			    <a href="">2</a>
+				<a href="">3</a>
+                <a href="">4</a>
+				<a href="">5</a>
+			    <a href="">6</a>
+				<a href="">&raquo;</a>
+			</div>
+				
+		</center>
+</section>
+
+	
+				
+
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			
+
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Social</h3>
+				<div class="widget-body">
+					<p class="follow-me-icons">
+						<a href=""><i class="fa fa-twitter fa-2"></i></a>
+						
+						<a href=""><i class="fa fa-facebook fa-2"></i></a>
+					</p>
+				</div>
+			</div>
+
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Dove trovarci</h3>
+				<div class="widget-body">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5825.6749003813275!2d11.500713545651914!3d44.823302372691025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477e4cd2507def19%3A0xfaa126b4e8dd4862!2sVia%20Madonna%20Boschi%2C%20Ca&#39;%20Tane%20FE!5e0!3m2!1sit!2sit!4v1642842021118!5m2!1sit!2sit" width="180" height="110" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+			</div>
+
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Contatti</h3>
+				<div class="widget-body">
+					<p>+234 23 9873237<br>
+						<a href="mailto:#">manuel.bagatin@studio.unibo.it</a>
+					</p>	
+				</div>
+            
+
+		</div> <!-- /row of widgets -->
+		<div class="col-md-3 widget">
+				<h3 class="widget-title"> <a href="">About Us</a></h3>
+				
+			</div>
+
+	</div>
+</footer>
+
+<footer id="underfooter">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p>Via Madonna Boschi, Vigarano Mainarda,FE</p>
+				</div>
+			</div>
+
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p class="text-right">
+						Copyright &copy; 2022, Manuel Bagatin<br> 
+						Tamplate: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> </p>
+
+				</div>
+			</div>
+
+		</div> <!-- /row of widgets -->
+	</div>
+</footer>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="assets/js/template.js"></script> <!nav fixed >
+</body>
+</html>
